@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/12412799?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="allai5/ms5837-pymata" /><meta property="og:url" content="https://github.com/allai5/ms5837-pymata" /><meta property="og:description" content="Contribute to allai5/ms5837-pymata development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDEyODk2NDA1Ojc2ZjZmOTRhMDViYmUxMDQ1ZTgwODI0NmJiODU2YjljYTBhOTQ1MGE5ZDAyYzQ2ODM4MzllNWIzNTQ0YTExYzA=--008db8acb348b297b09d828303554c0406a4de06">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDEyODk2NDA1OmJlZmU5Zjg3YWExNWU1YjFlMmI4ZjBmMjU5YzE5Y2JkNzEyYWI1YTMxMTg3OTFiNzUyZWQzNmZmMDVhYjBhZjM=--244a98e997acdaf6d6fc49f8e6d6c34db2526dd7">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="60E6:44A0:251AE2:3E82B3:5CFAEF5B" data-pjax-transient>
+  <meta name="request-id" content="1485:11F8:6A5AD6:B3B9FF:5CFBF1E2" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="60E6:44A0:251AE2:3E82B3:5CFAEF5B" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="51273280" /><meta name="octolytics-actor-login" content="hawkseng" /><meta name="octolytics-actor-hash" content="66219ea68b3e15e56d4f358a60b693f38071cb41b4165f62e74ad1e39f2f7ab1" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="1485:11F8:6A5AD6:B3B9FF:5CFBF1E2" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="51273280" /><meta name="octolytics-actor-login" content="hawkseng" /><meta name="octolytics-actor-hash" content="66219ea68b3e15e56d4f358a60b693f38071cb41b4165f62e74ad1e39f2f7ab1" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,7 +71,7 @@
     <meta name="user-login" content="hawkseng">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NjFmYzU3ZGRmNDYzNDEzMmVkZjcwOTgzNDVmMjMzMTk2ZGU5ZTdmMjk1YTAwMTU5ZThhZDI4OGM4YmU3N2E2M3x7InJlbW90ZV9hZGRyZXNzIjoiNTAuMjAyLjgzLjE4MiIsInJlcXVlc3RfaWQiOiI2MEU2OjQ0QTA6MjUxQUUyOjNFODJCMzo1Q0ZBRUY1QiIsInRpbWVzdGFtcCI6MTU1OTk0OTE1MiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="ZjBmZTk4MjU4NDEwMTAzZTY4MmU1MmU3Yjc3MWYzMjczMmE3OTc3NDJmNjg5YzQ2NDQzZjFkOWYwMWY2YmUzOHx7InJlbW90ZV9hZGRyZXNzIjoiMzguMTMxLjIzNy4xNTAiLCJyZXF1ZXN0X2lkIjoiMTQ4NToxMUY4OjZBNUFENjpCM0I5RkY6NUNGQkYxRTIiLCJ0aW1lc3RhbXAiOjE1NjAwMTUzMzgsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES">
 
@@ -158,7 +158,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=4Lcm2cF0aFVa8Uh89+2wPCdXwe0I0V2gXqyx8vrP4Cengjf6Gy+YtTy3REqi0UdEnwxwcepfIzlPA4KOr5x1mQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=GFYySc+Jj3quwUItAbF1sLDm04GJX1iWAGXumFUVG7VfYyNqFdJ/msiHThtUjYLICL1iHWvRJg8Ryt3kAEaOCw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -308,7 +308,7 @@
       <img class="avatar" src="https://avatars1.githubusercontent.com/u/51273280?s=40&amp;v=4" width="20" height="20" alt="@hawkseng" />
       hawkseng
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NB1nNzNarl0f7U9n9YHmWHbvg+bMd6tulMC5BQ175xtIajaaGKsmWSi+yjcwWjehjIrNKKwT9cE9XYxHQaP3FQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mbuHZo6Oq3PheVlJ0c0HILe/ebSRX3MqIBLo02mUTZLlzNbLpX8jd9Yq3BkUFtbZTdo3evE7LYWJj92RJUxdnA==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -402,7 +402,7 @@
     border
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:12412799,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51273280,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;60E6:44A0:251AE2:3E82B3:5CFAEF5B&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;}}" data-hydro-click-hmac="b5cdd9d8a8da05638e19fc12766e4427fce7660bda0b05545d02ebdcc455a3ec">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:12412799,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51273280,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;1485:11F8:6A5AD6:B3B9FF:5CFBF1E2&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;}}" data-hydro-click-hmac="62f981431f8e7608b8c863acc3c955e8ab3ffdb29b8c2b96a05a31457161e7cc">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -428,7 +428,7 @@
         </div>
       </div>
 </summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="Jju4/Nfzx0pjZLZs6kCEfr0ZaxOizKXqmmkOsrvJkpIJSz1ErPEjaLh03KprkMCd83E6exJpRU4QqaIcE1c/0A==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="4XaGHj6b6FJRyGdDK1wHl7q6zcbQV3YlRs2Zh0hk2BrOBgOmRZkMcIrYDYWqjEN09NKcrmDyloHMDTUp4Pp1WA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -548,22 +548,22 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-06-07T18:42:32-05:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-06-08T13:05:38-05:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-06-07T19:12:32-05:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-06-08T13:35:38-05:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-06-07T22:12:32-05:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-06-08T16:35:38-05:00">
             in 4 hours
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2019-06-07T23:59:59-05:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2019-06-08T23:59:59-05:00">
             today
           </button>
         </li>
@@ -606,7 +606,7 @@
     <div role="none" class="dropdown-divider"></div>
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LAtVZzpV9ep4Q/YJc3btPzQa7uFjefN4aKa5ZqPO4dlQfATKEaR97k8Qc1m2rTzGzn+gLwMdrdfBO4wk7xbx1w==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SXoVB9NGj4xE3QD+oz5nidmyuVXdsPiVhENIyglZXvw1DUSq+LcHiHOOha5m5bZwI9f3m73Upjot3n2IRYFO8g==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -654,10 +654,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="J7bZtJlCbw0xr1MEx1tZo2kCdb66cGkb2B5DI8aHQZ0Tmg6jluPhJUU78bGnd2f2AibC1HZcHVvEN7u49Dk24w==" />      <input type="hidden" name="repository_id" value="126427934">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="P+zlPU71fmxxEfUY2ON3pZQM+I+pJ6dI3lBy+lXzkqwLwDIqQVTwRAWFV624z0nw/yhP5WUL0wjCeYphZ03l0g==" />      <input type="hidden" name="repository_id" value="126427934">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;60E6:44A0:251AE2:3E82B3:5CFAEF5B&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="ddfe0a9c6064c4ba7163b16d529bac589d79217308cb60513f68d91f22f453a8" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;1485:11F8:6A5AD6:B3B9FF:5CFBF1E2&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="db45bdb9d58d96b823dd7535dca8b7acd0a9deffa79f9139128a4cb7efde4b77" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -728,18 +728,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/allai5/ms5837-pymata/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5B2FCc7vHJFdHHr6Y2Tq1V7j8UsrRlF3QFplU+BM1STO2KJyT1sxPDlxMtvuytu+ra3Q1b1vGmazkSZ4Tx9etQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/allai5/ms5837-pymata/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GhvhP/5vZtV1Wbs6gVAbJjE20azUnHX0mleccD2Kir8w3sZEf9tLeBE08xsM/ipNwnjwMkK1PuVpnN9bktkBLg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar allai5/ms5837-pymata" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;60E6:44A0:251AE2:3E82B3:5CFAEF5B&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="b4197643e4497b12e7def2f2f1c14d8938f7c02d5f744aa416bdda6d7ab85b80" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar allai5/ms5837-pymata" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;1485:11F8:6A5AD6:B3B9FF:5CFBF1E2&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="115914ec3bb7c2d76aadaf18f4806564acda1e47025cc9521bd7a25b2cd3c9d0" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/allai5/ms5837-pymata/stargazers"
            aria-label="1 user starred this repository">
           1
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/allai5/ms5837-pymata/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZwxVq5n+ABz05GBhQk3qQIdSwVU6ACFTYxlvWtYjrMEfjax9KxjZ+ACGYJKEztTMui4bw6pDwUgAHUpukmNjmw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/allai5/ms5837-pymata/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rr3ecwQMd5wF7b+HvuoGQC2VbFHDKGW6QOuzta9hXmXWPCeltuquePGPv3R4aTjMEOm2x1NrhaEj75aB6yGRPw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star allai5/ms5837-pymata" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;60E6:44A0:251AE2:3E82B3:5CFAEF5B&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="416a1f6836960d76ef959dac1cc946a5dce6d8537140b8d10a54d106cf0c0e8a" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star allai5/ms5837-pymata" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;1485:11F8:6A5AD6:B3B9FF:5CFBF1E2&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="230acade976dfe23023c7dde8de8f35a742c4f182c567969c53cddd5f8eb0736" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/allai5/ms5837-pymata/stargazers"
            aria-label="1 user starred this repository">
@@ -750,13 +750,13 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/allai5/ms5837-pymata/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9guHGgJo5dv+jxyOhqucnaQakdnCcmw6hH9twJIqjvC9jYDaFTdf6OYNUhk11WOkV2ZdZaRImvR19Mhm8Ciifw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;60E6:44A0:251AE2:3E82B3:5CFAEF5B&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="5268f6aab862ea4774a0f1475ddd0a910053db0978c6b0b53e3922dc3cc39704" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of allai5/ms5837-pymata to your account" aria-label="Fork your own copy of allai5/ms5837-pymata to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/allai5/ms5837-pymata/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="u9IYfCikME12D9FlbgVKQxKD2sm8cZ0P+uENbuosObfwVB+8P/uKfm6Nn/Lde7V64f8WddpLa8ELaqjIiC4VOA==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:126427934,&quot;client_id&quot;:&quot;1033691058.1553812473&quot;,&quot;originating_request_id&quot;:&quot;1485:11F8:6A5AD6:B3B9FF:5CFBF1E2&quot;,&quot;originating_url&quot;:&quot;https://github.com/allai5/ms5837-pymata/blob/master/ms5837-pymata.py&quot;,&quot;referrer&quot;:&quot;https://github.com/allai5/ms5837-pymata&quot;,&quot;user_id&quot;:51273280}}" data-hydro-click-hmac="b6c498f0adb422baba156513e99247fb7efab4302fa2a1bcf26dae67b6d25931" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of allai5/ms5837-pymata to your account" aria-label="Fork your own copy of allai5/ms5837-pymata to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/allai5/ms5837-pymata/network/members" class="social-count"
-       aria-label="0 users forked this repository">
-      0
+       aria-label="1 user forked this repository">
+      1
     </a>
   </li>
 </ul>
@@ -1015,15 +1015,15 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/allai5/ms5837-pymata/edit/master/ms5837-pymata.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jQg0oAmYnV992koeMR1JF3HNHYRYSyHC8+AZYxGAEoTA7unqVUMCNTP8QAbo/Oa6jObrYrZA6EMLDSP66qqM7A==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/allai5/ms5837-pymata/edit/master/ms5837-pymata.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jAjWulzSFnz7OnvsqAYDE7F68f9Sl373rHlfry656Y7B7gvwAAmJFrUccfRx56y+TFEHGbyct3ZUlGU21ZN35g==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-                aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+                aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/allai5/ms5837-pymata/delete/master/ms5837-pymata.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+kuwUG9sZz914fHG6CQPieWZJJszZNZ/mlO9kyCb2xD21hzeK1NbKOh9SSKVHk0syy0aSo5fp0Mldc2CRTlFhg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/allai5/ms5837-pymata/delete/master/ms5837-pymata.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fYbuqXhRL9lNiGE+Kns0FbRhx5z4H51SkyzewvCE1FFxG0InPG4TztAU2dpXQXawmtX5TUUk7G4sCq7TlSZKxw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-              aria-label="Fork this project and delete the file" data-disable-with>
+              aria-label="Delete the file in your fork of this project" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
             </button>
 </form>    </div>
@@ -2129,7 +2129,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.42840s from unicorn-5798c99b88-t982p">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.37371s from unicorn-7d6d877985-8k62x">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
