@@ -47,7 +47,7 @@ class TSYS01(object): # What is the purpose of making a "class?"
             c = []
             board.i2c_read_request(_TSYS01_ADDR, _TSYS01_PROM_READ + (2*i), 2, Constants.I2C_READ)
             board.sleep(0.1)
-            data = board.i2c_read_data(self._MS5837_ADDR)
+            data = board.i2c_read_data(_TSYS01_ADDR)
             for j in range(len(data)):
                 c.append(hex(data[j])[2:])
                 #print(str(hex(data[j])))
@@ -71,15 +71,6 @@ class TSYS01(object): # What is the purpose of making a "class?"
             return False
         
         return True
-        
-    def read(self, oversampling=OSR_8192):
-        if self._board is None:
-            print("No board!")
-            return False
-        
-        if oversampling < OSR_256 or oversampling > OSR_8192:
-            print("Invalid oversampling option!")
-            return False
         
         # Request D1 conversion (temperature)
         self._board.i2c_write_request(self._MS5837_ADDR, [self._MS5837_CONVERT_D1_256 + 2*oversampling])
