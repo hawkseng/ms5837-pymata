@@ -35,7 +35,7 @@ class TSYS01(object): # What is the purpose of making a "class?"
             "No board!"
             return False
 
-        self._board.i2c_write_request(self._MS5837_ADDR, [self._MS5837_RESET])
+        board.i2c_write_request(self._TSYS01_ADDR, [self._TSYS01_RESET])
         
         # Wait for reset to complete
         sleep(0.01)
@@ -45,9 +45,9 @@ class TSYS01(object): # What is the purpose of making a "class?"
         # Read calibration values and CRC
         for i in range(7):
             c = []
-            self._board.i2c_read_request(self._MS5837_ADDR, self._MS5837_PROM_READ + (2*i), 2, Constants.I2C_READ)
-            self._board.sleep(0.1)
-            data = self._board.i2c_read_data(self._MS5837_ADDR)
+            board.i2c_read_request(_TSYS01_ADDR, _TSYS01_PROM_READ + (2*i), 2, Constants.I2C_READ)
+            board.sleep(0.1)
+            data = board.i2c_read_data(self._MS5837_ADDR)
             for j in range(len(data)):
                 c.append(hex(data[j])[2:])
                 #print(str(hex(data[j])))
@@ -204,10 +204,7 @@ class TSYS01(object): # What is the purpose of making a "class?"
     
         return n_rem ^ 0x00
     
-class MS5837_30BA(MS5837):
+class TSYS01(TSYS01):
     def __init__(self):
-        MS5837.__init__(self, MODEL_30BA)
-        
-class MS5837_02BA(MS5837):
-    def __init__(self):
-        MS5837.__init__(self, MODEL_02BA)
+        TSYS01.__init__(self, MODEL_30BA) #What is this doing???
+       
