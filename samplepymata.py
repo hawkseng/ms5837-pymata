@@ -2,10 +2,10 @@ from pymata_aio.pymata3 import PyMata3
 from pymata_aio.constants import Constants
 from time import sleep
 
-arduino = PyMata3()
-arduino.i2c_config()
+arduino = PyMata3() # Why don't we do this?
+arduino.i2c_config() # or this?
 
-# Models
+# Models - What are these?!?  The two sensors on board?
 MODEL_02BA = 0
 MODEL_30BA = 1
 
@@ -17,36 +17,15 @@ OSR_2048 = 3
 OSR_4096 = 4
 OSR_8192 = 5
 
-# kg/m^3 convenience
-DENSITY_FRESHWATER = 997
-DENSITY_SALTWATER = 1029
-
-# Conversion factors (from native unit, mbar)
-UNITS_Pa     = 100.0
-UNITS_hPa    = 1.0
-UNITS_kPa    = 0.1
-UNITS_mbar   = 1.0
-UNITS_bar    = 0.001
-UNITS_atm    = 0.000986923
-UNITS_Torr   = 0.750062
-UNITS_psi    = 0.014503773773022
-
-# Valid units
-UNITS_Centigrade = 1
-UNITS_Farenheit  = 2
-UNITS_Kelvin     = 3
-
+class TSYS01(object):
     
-class MS5837(object):
-    
-    # Registers
-    _MS5837_ADDR             = 0x76  
-    _MS5837_RESET            = 0x1E
-    _MS5837_ADC_READ         = 0x00
-    _MS5837_PROM_READ        = 0xA0
-    _MS5837_CONVERT_D1_256   = 0x40
-    _MS5837_CONVERT_D2_256   = 0x50
-    
+    # Registers - Why do these start with underscore?
+    _TSYS01_ADDR             = 0x77  
+    _TSYS01_RESET            = 0x1E
+    _TSYS01_READ             = 0x00
+    _TSYS01_PROM_READ        = 0xA0
+    _TSYS01_CONVERT          = 0x48
+        
     def __init__(self, model=MODEL_30BA):
         self._model = model
         
@@ -54,12 +33,8 @@ class MS5837(object):
             self._board = arduino
         except:
             self._board = None
-        
-        self._fluidDensity = DENSITY_FRESHWATER
-        self._pressure = 0
-        self._temperature = 0
-        self._D1 = 0
-        self._D2 = 0
+
+            self._temperature = 0
         
     def init(self):
         if self._board is None:
@@ -150,12 +125,7 @@ class MS5837(object):
     
     def setFluidDensity(self, denisty):
         self._fluidDensity = denisty
-        
-    # Pressure in requested units
-    # mbar * conversion
-    def pressure(self, conversion=UNITS_mbar):
-        return self._pressure * conversion
-        
+            
     # Temperature in requested units
     # default degrees C
     def temperature(self, conversion=UNITS_Centigrade):
@@ -166,14 +136,6 @@ class MS5837(object):
             return degC - 273
         return degC
         
-    # Depth relative to MSL pressure in given fluid density
-    def depth(self):
-        return (self.pressure(UNITS_Pa)-101300)/(self._fluidDensity*9.80665)
-    
-    # Altitude relative to MSL pressure
-    def altitude(self):
-        return (1-pow((self.pressure()/1013.25),.190284))*145366.45*.3048        
-    
     # Cribbed from datasheet
     def _calculate(self):
         OFFi = 0
