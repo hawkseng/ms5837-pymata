@@ -2,22 +2,16 @@ from pymata_aio.pymata3 import PyMata3
 from pymata_aio.constants import Constants
 from time import sleep
 
-arduino = PyMata3() # Why don't we do this?
+arduino = PyMata3() # Why don't we do this?  I assume we use the open socket stuff...
 arduino.i2c_config() # or this?
+#open socket for control board - this is from Matt
+board = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='')
 
 # Models - What are these?!?  The two sensors on board?
 MODEL_02BA = 0
 MODEL_30BA = 1
 
-# Oversampling options
-OSR_256  = 0
-OSR_512  = 1
-OSR_1024 = 2
-OSR_2048 = 3
-OSR_4096 = 4
-OSR_8192 = 5
-
-class TSYS01(object):
+class TSYS01(object): # What is the purpose of making a "class?"
     
     # Registers - Why do these start with underscore?
     _TSYS01_ADDR             = 0x77  
@@ -30,7 +24,7 @@ class TSYS01(object):
         self._model = model
         
         try:
-            self._board = arduino
+            self._board = board
         except:
             self._board = None
 
