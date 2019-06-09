@@ -5,12 +5,13 @@ from time import sleep
 
 #open socket for control board
 board = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='')
+board.i2c_config(0)
 #arduino = PyMata3()
 #arduino.i2c_config()
 
 # Models
-MODEL_02BA = 0
-MODEL_30BA = 1
+MODEL_02BA = 0 #This is our 2 Bar pressure sensor
+#MODEL_30BA = 1 #30 Bar pressure sensor
 
 # Oversampling options
 OSR_256  = 0
@@ -54,7 +55,7 @@ class MS5837(object):
         self._model = model
         
         try:
-            self._board = arduino
+            self._board = board
         except:
             self._board = None
         
@@ -251,9 +252,9 @@ class MS5837(object):
     
         return n_rem ^ 0x00
     
-class MS5837_30BA(MS5837):
-    def __init__(self):
-        MS5837.__init__(self, MODEL_30BA)
+#class MS5837_30BA(MS5837):#This is for the Blue Robotics 30 Bar sensor
+#    def __init__(self):
+#        MS5837.__init__(self, MODEL_30BA)
         
 class MS5837_02BA(MS5837):
     def __init__(self):
