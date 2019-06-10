@@ -41,7 +41,7 @@ UNITS_Farenheit  = 2
 UNITS_Kelvin     = 3
 
     
-class MS5837(object):
+
     
     # Registers
     _MS5837_ADDR             = 0x76  
@@ -51,7 +51,7 @@ class MS5837(object):
     _MS5837_CONVERT_D1_256   = 0x40
     _MS5837_CONVERT_D2_256   = 0x50
     
-    def __init__(self, model=MODEL_30BA):
+    def __init__(self, model=1):
         self._model = model
         
         try:
