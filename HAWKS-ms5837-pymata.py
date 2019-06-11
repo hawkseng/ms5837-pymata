@@ -4,9 +4,9 @@ from pymata_aio.constants import Constants
 from time import sleep
 
 #open socket for control board - these are from Matt's program, so I assume these will connect to the board.
-board = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='') #the ip address is set by Matt's router I believe.
+cboard = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='') #the ip address is set by Matt's router I believe.
 #I assume the port is part of his hardware. What is the handshake? as in why is it ' '?
-board.i2c_config(0) #0 is the delay?
+cboard.i2c_config(0) #0 is the delay?
 #arduino = PyMata3()
 #arduino.i2c_config()
 
@@ -56,7 +56,7 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
         self._model = model #again, what does self refer to? and why underscore before model?  Is this specific to being in a class?
         
         try:
-            self._board = board #I changed this to board from a self.*** command.  if I understood what self is...
+            self._board = cboard #I changed this to board from a self.*** command.  if I understood what self is...
         except:
             self._board = None
         
@@ -71,7 +71,7 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
             "No board!"
             return False
 
-        board.i2c_write_request(_MS5837_ADDR, [_MS5837_RESET]) #Do square brackets matter here?
+        cboard.i2c_write_request(_MS5837_ADDR, [_MS5837_RESET]) #Do square brackets matter here?
         
         # Wait for reset to complete
         sleep(0.01)
@@ -81,9 +81,9 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
         # Read calibration values and CRC
         for i in range(7): #Is this the same as saying range (0,7)?
             c = [] #This is an array???
-            board.i2c_read_request(_MS5837_ADDR, _MS5837_PROM_READ + (2*i), 2, Constants.I2C_READ) #What does Constants.I2C_READ do?
-            board.sleep(0.1)
-            data = board.i2c_read_data(_MS5837_ADDR)
+            cboard.i2c_read_request(_MS5837_ADDR, _MS5837_PROM_READ + (2*i), 2, Constants.I2C_READ) #What does Constants.I2C_READ do?
+            cboard.sleep(0.1)
+            data = cboard.i2c_read_data(_MS5837_ADDR)
             for j in range(len(data)):
                 c.append(hex(data[j])[2:])
                 #print(str(hex(data[j])))
@@ -109,7 +109,7 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
         return True
         
     def read(self, oversampling=OSR_8192):
-        if board is None:
+        if cboard is None:
             print("No board!")
             return False
         
@@ -118,7 +118,7 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
             return False
         
         # Request D1 conversion (temperature)
-        board.i2c_write_request(_MS5837_ADDR, [_MS5837_CONVERT_D1_256 + 2*oversampling])
+        cboard.i2c_write_request(_MS5837_ADDR, [_MS5837_CONVERT_D1_256 + 2*oversampling])
     
         # Maximum conversion time increases linearly with oversampling
         # max time (seconds) ~= 2.2e-6(x) where x = OSR = (2^8, 2^9, ..., 2^13)
@@ -126,24 +126,24 @@ class MS5837(object): #I am still not comfortable with why we make classes.  Tho
         sleep(2.5e-6 * 2**(8+oversampling))
         
         #d = self._bus.read_i2c_block_data(self._MS5837_ADDR, self._MS5837_ADC_READ, 3)
-        board.i2c_read_request(_MS5837_ADDR, _MS5837_ADC_READ, 3, Constants.I2C_READ)
-        board.sleep(0.1)
-        d = board.i2c_read_data(_MS5837_ADDR)
+        cboard.i2c_read_request(_MS5837_ADDR, _MS5837_ADC_READ, 3, Constants.I2C_READ)
+        cboard.sleep(0.1)
+        d = cboard.i2c_read_data(_MS5837_ADDR)
 
 
         self._D1 = d[0] << 16 | d[1] << 8 | d[2]
         
         # Request D2 conversion (pressure)
-        board.i2c_write_request(_MS5837_ADDR, [_MS5837_CONVERT_D2_256 + 2*oversampling])
+        cboard.i2c_write_request(_MS5837_ADDR, [_MS5837_CONVERT_D2_256 + 2*oversampling])
         
     
         # As above
         sleep(2.5e-6 * 2**(8+oversampling))
  
         #d = self._bus.read_i2c_block_data(self._MS5837_ADDR, self._MS5837_ADC_READ, 3)
-        board.i2c_read_request(_MS5837_ADDR, _MS5837_ADC_READ, 3, Constants.I2C_READ)
-        board.sleep(0.1)
-        d = board.i2c_read_data(_MS5837_ADDR)
+        cboard.i2c_read_request(_MS5837_ADDR, _MS5837_ADC_READ, 3, Constants.I2C_READ)
+        cboard.sleep(0.1)
+        d = cboard.i2c_read_data(_MS5837_ADDR)
 
         self._D2 = d[0] << 16 | d[1] << 8 | d[2]
 
