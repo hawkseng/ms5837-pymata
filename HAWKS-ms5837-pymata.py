@@ -3,17 +3,18 @@ from pymata_aio.pymata3 import PyMata3
 from pymata_aio.constants import Constants
 from time import sleep
 
-#open socket for control board
-board = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='')
-board.i2c_config(0)
+#open socket for control board - these are from Matt's program, so I assume these will connect to the board.
+board = PyMata3(ip_address = '192.168.0.177', ip_port=3030, ip_handshake='') #the ip address is set by Matt's router I believe.
+#I assume the port is part of his hardware. What is the handshake? as in why is it ' '?
+board.i2c_config(0) #0 is the delay?
 #arduino = PyMata3()
 #arduino.i2c_config()
 
-# Models
+# Models - What is the purpose for these?  As far as I see below, it has something to do with the different sensors and how they calculate pressure.
 MODEL_02BA = 0 #This is our 2 Bar pressure sensor
 #MODEL_30BA = 1 #30 Bar pressure sensor
 
-# Oversampling options
+# Oversampling options - I don't care as long as it works...
 OSR_256  = 0
 OSR_512  = 1
 OSR_1024 = 2
@@ -40,7 +41,7 @@ UNITS_Centigrade = 1
 UNITS_Farenheit  = 2
 UNITS_Kelvin     = 3
 
-class MS5837(object):
+class MS5837(object): #I am still not comfortable with why we make classes.  Thoughts?
     
     # Registers
     _MS5837_ADDR             = 0x76  
@@ -50,11 +51,12 @@ class MS5837(object):
     _MS5837_CONVERT_D1_256   = 0x40
     _MS5837_CONVERT_D2_256   = 0x50
     
-    def __init__(self, model=1):
-        self._model = model
+    def __init__(self, model=1): #What does "self" mean?  I have a feeling that this is part of our problem...
+        #what are the undescores for around init?
+        self._model = model #again, what does self refer to? and why underscore before model?  Is this specific to being in a class?
         
         try:
-            self._board = board
+            self._board = board #I changed this to board from a self.*** command.  if I understood what self is...
         except:
             self._board = None
         
@@ -64,22 +66,22 @@ class MS5837(object):
         self._D1 = 0
         self._D2 = 0
         
-    def init(self):
+    def init(self): #So...how does this relate to the __init__ above?
         if self._board is None:
             "No board!"
             return False
 
-        board.i2c_write_request(_MS5837_ADDR, [_MS5837_RESET])
+        board.i2c_write_request(_MS5837_ADDR, [_MS5837_RESET]) #Do square brackets matter here?
         
         # Wait for reset to complete
         sleep(0.01)
         
-        self._C = []
+        self._C = [] #again, self??? Also, what is _C?  is this making an array to save data?
         
         # Read calibration values and CRC
-        for i in range(7):
-            c = []
-            board.i2c_read_request(_MS5837_ADDR, _MS5837_PROM_READ + (2*i), 2, Constants.I2C_READ)
+        for i in range(7): #Is this the same as saying range (0,7)?
+            c = [] #This is an array???
+            board.i2c_read_request(_MS5837_ADDR, _MS5837_PROM_READ + (2*i), 2, Constants.I2C_READ) #What does Constants.I2C_READ do?
             board.sleep(0.1)
             data = board.i2c_read_data(_MS5837_ADDR)
             for j in range(len(data)):
@@ -96,7 +98,7 @@ class MS5837(object):
             #print(hex(int(output,16)))
             #print(int(output,0))
             finaloutput =  ((int(output,0) & 0xFF) << 8) | ((int(output,0) >> 8))
-            print(finaloutput)
+            print(finaloutput) #This does not print.  
             self._C.append(finaloutput)
                         
         crc = (self._C[0] & 0xF000) >> 12
